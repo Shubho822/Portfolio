@@ -1,0 +1,237 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+#home{
+	height: 100vh;
+	width: 100%;
+	background-image: url(back1.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+#port{
+		color: white;
+		font-size: 45px;
+		letter-spacing: 1px;
+		cursor: pointer;
+		padding-left: 100px;
+		padding-top: 15px;
+	}
+span{
+	color: #f9004d;
+    }
+
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px 0;
+	margin: auto;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin: 10px 20px;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: white;
+	font-size: 25px;
+}
+nav ul li a:hover{
+	color: #f9004d;
+	transition: .4s;
+}
+#content{
+	position: absolute;
+	top: 40vh;
+	left:10vh;
+	background-repeat: no-repeat;
+	font-size: 50px;
+}
+#about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+#about img{
+	height: auto;
+	width: 430px;
+}
+#about2{
+	width: 550px;
+	color: white;
+	font-size: 35px;
+}
+#about1{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#skill{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+#skill h3{
+	color: white;
+	font-size: 100px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+	margin-bottom: 0px;
+}
+#project{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+#project h3{
+	color: white;
+	font-size: 100px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+.project1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.project2{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	margin-top: 0px;
+}
+.p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.project2 i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #f9004d;
+}
+h2{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+#contact{
+	width: 100%;
+	height: 290px;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+#contact h1{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+#contact a{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+#contact a:hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer h2{
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+#social{
+	display: flex;
+}
+#social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+#social a:nth-child(1){
+	background-color: blue;
+}
+#social a:nth-child(3){
+	background-color: #0072b1;
+}
+#social a:nth-child(5){
+	background-color: blueviolet;
+}
+#social a:nth-child(6){
+	background-color: #25D366;
+}
+#social a:nth-child(4){
+	background-color: red;
+}
+
+#social a:hover{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
+#insta {
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+	-webkit-background-clip: text;
+	/* Also define standard property for compatibility */
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	font-size: 50px; /* change this to change the size*/
+	
+	}
